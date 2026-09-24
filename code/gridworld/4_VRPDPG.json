@@ -1,0 +1,13 @@
+{
+    "PATH": "./experiments/ablation_studies/VR_PrimalDual/",
+    "name": "VRPDPG__safe_Exploration__lr_{learning_rate}__dual_lr__{dual_lr}__alpha_t__{alpha_t}__discount_{discount_factor}__episodes-per-epoch_{episodes_per_epoch}",
+    "n_experiments": 10,
+    "n_epochs": 15000,
+    "hyperparameters": {
+        "episodes_per_epoch": [8, 24, 72],
+        "learning_rate": [0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 1],
+        "dual_lr": [0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 1],
+        "alpha_t": [0.001, 0.005, 0.01, 0.03, 0.05, 0.1, 1],
+        "discount_factor": 0.99
+    }
+}

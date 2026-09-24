@@ -1,0 +1,13 @@
+{
+    "PATH": "./experiments/ablation_studies/Penalty/hole_penalty/",
+    "name": "Penalty__safe_Exploration__beta_{penalty_param}__{learning_rate}__discount_{discount_factor}__episodes-per-epoch_{episodes_per_epoch}__c_{hole_penalty}",
+    "n_experiments": 10,
+    "n_epochs": 15000,
+    "hyperparameters": {
+        "episodes_per_epoch": [8, 24, 72],
+        "learning_rate": [0.001, 0.01, 0.1],
+        "penalty_param": [0.0125, 0.025, 0.125, 0.25],
+        "discount_factor": 0.99,
+        "hole_penalty": -2.0
+    }
+}

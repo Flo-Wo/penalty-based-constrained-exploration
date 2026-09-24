@@ -1,0 +1,31 @@
+# Cite the arXiv preprint until the NeurIPS proceedings citation is available.
+cff-version: 1.2.0
+message: >-
+  If you use this code, please cite the arXiv preprint below. The citation
+  can be updated to the NeurIPS proceedings version once it is available.
+type: software
+title: "Code for Global Optimality for Constrained Exploration via Penalty Regularization"
+authors:
+  - family-names: Wolf
+    given-names: Florian
+  - family-names: Fatkhullin
+    given-names: Ilyas
+  - family-names: He
+    given-names: Niao
+repository-code: "https://github.com/Flo-Wo/penalty-based-constrained-exploration"
+license: MIT
+preferred-citation:
+  type: unpublished
+  status: preprint
+  title: "Global Optimality for Constrained Exploration via Penalty Regularization"
+  authors:
+    - family-names: Wolf
+      given-names: Florian
+    - family-names: Fatkhullin
+      given-names: Ilyas
+    - family-names: He
+      given-names: Niao
+  year: 2026
+  doi: "10.48550/arXiv.2604.28144"
+  url: "https://arxiv.org/abs/2604.28144"
+  notes: "arXiv:2604.28144 [cs.LG]."

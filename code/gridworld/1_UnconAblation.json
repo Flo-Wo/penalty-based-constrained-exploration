@@ -1,0 +1,12 @@
+{
+    "PATH": "./experiments/max_entropy_uncon/Penalty/",
+    "name": "Penalty__safe_Exploration__beta_{penalty_param}__{learning_rate}__discount_{discount_factor}__episodes-per-epoch_{episodes_per_epoch}",
+    "n_experiments": 10,
+    "n_epochs": 15000,
+    "hyperparameters": {
+        "episodes_per_epoch": [8, 24, 72],
+        "learning_rate": [0.001, 0.01, 0.1],
+        "penalty_param": 0.0,
+        "discount_factor": 0.99
+    }
+}
