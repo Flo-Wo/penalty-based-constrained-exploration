@@ -30,7 +30,6 @@ from stable_baselines3.common.callbacks import EvalCallback
 from pgp_core import GMMStateDensity, get_best_device, set_seed, to_torch
 from point_mass_env import PointMassEasyGym
 
-
 # -------------------------
 # Reference occupancy fitting
 # -------------------------
